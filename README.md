@@ -1,2 +1,3 @@
-# goit-markup-hw-01
-HW 1 Тема 1. Знайомство з HTML
+# goit-markup-hw-02
+
+HW 2 Тема 2. Вступ до CSS
