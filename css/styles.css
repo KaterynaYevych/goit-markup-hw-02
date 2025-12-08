@@ -25,21 +25,25 @@ a {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
-.h3 {
+.title3 {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .logo {
-  color: #2e2f42;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -48,8 +52,8 @@ a {
   color: #f4f4fd;
 }
 
-.accented {
-  color: #4d5ae5;
+.dark {
+  color: #2e2f42;
 }
 
 .header-item {
@@ -58,15 +62,18 @@ a {
   color: #2e2f42;
 }
 
-.header-item:hover {
+.header-item:hover,
+.header-item:focus {
   color: #404bbf;
 }
 
 .contacts-item {
   font-weight: 400;
+  font-style: normal;
 }
 
-.contacts-item:hover {
+.contacts-item:hover,
+.contacts-item:focus {
   color: #404bbf;
 }
 
@@ -80,6 +87,7 @@ a {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .btn {
@@ -88,10 +96,11 @@ a {
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
-.btn:hover {
+.btn:hover .btn:focus {
   background-color: #404bbf;
 }
 
