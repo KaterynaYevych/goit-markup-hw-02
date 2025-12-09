@@ -19,6 +19,10 @@ a {
   color: inherit;
 }
 
+address {
+  font-style: normal;
+}
+
 .section-title {
   color: #2e2f42;
   text-align: center;
@@ -62,18 +66,17 @@ a {
   color: #2e2f42;
 }
 
-.header-item:hover,
-.header-item:focus {
+.header-item-link:hover,
+.header-item-link:focus {
   color: #404bbf;
 }
 
 .contacts-item {
   font-weight: 400;
-  font-style: normal;
 }
 
-.contacts-item:hover,
-.contacts-item:focus {
+.contacts-item-link:hover,
+.contacts-item-link:focus {
   color: #404bbf;
 }
 
@@ -100,7 +103,8 @@ a {
   letter-spacing: 0.04em;
 }
 
-.btn:hover .btn:focus {
+.btn:hover,
+.btn:focus {
   background-color: #404bbf;
 }
 
